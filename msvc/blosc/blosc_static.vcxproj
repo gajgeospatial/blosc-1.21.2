@@ -147,7 +147,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.\;..\..\blosc;..\..\..\$(LZ4_DIR)\lib;..\..\..\$(ZLIB_DIR);..\..\..\$(ZSTD_DIR)\lib;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;..\..\blosc;..\..\..\$(LZ4_DIR)\lib;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -180,7 +180,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.\;..\..\blosc;..\..\..\$(LZ4_DIR)\lib;..\..\..\$(ZLIB_DIR);..\..\..\$(ZSTD_DIR)\lib;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;..\..\blosc;..\..\..\$(LZ4_DIR)\lib;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -246,7 +246,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.\;..\..\blosc;..\..\..\$(LZ4_DIR)\lib;..\..\..\$(ZLIB_DIR);..\..\..\$(ZSTD_DIR)\lib;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;..\..\blosc;..\..\..\$(LZ4_DIR)\lib;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -279,7 +279,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.\;..\..\blosc;..\..\..\$(LZ4_DIR)\lib;..\..\..\$(ZLIB_DIR);..\..\..\$(ZSTD_DIR)\lib;%(AdditionalIncludeDirectories);</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;..\..\blosc;..\..\..\$(LZ4_DIR)\lib;..\..\..\$(ZLIB_DIR);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
